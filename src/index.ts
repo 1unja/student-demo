@@ -12,7 +12,7 @@ const data = {
 }
 
 app.get('/', (req, res) => {
-  res.sendFile(path.join('/Users/lunja/Desktop/all programms/new-project/src/main.html'))
+  res.sendFile(path.resolve('src/main.html'))
 })
 app.get('/home', (req, res) => {
   let foundQuery = data.persons
