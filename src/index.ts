@@ -6,7 +6,8 @@ const data = {
   persons: [
     {id: 1, title: 'warm'},
     {id: 2, title: 'cold'},
-    {id: 3, title: 'fresh'}
+    {id: 3, title: 'fresh'},
+    {id: 4, title: 'dry'}
   ]
 }
 
