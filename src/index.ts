@@ -1,4 +1,5 @@
 import express from 'express'
+import path  from 'path'
 const app = express()
 const port = process.env.PORT || 3000
 
@@ -11,7 +12,7 @@ const data = {
 }
 
 app.get('/', (req, res) => {
-  res.send('hell')
+  res.sendFile(path.join('/Users/lunja/Desktop/all programms/new-project/src/main.html'))
 })
 app.get('/home', (req, res) => {
   let foundQuery = data.persons
